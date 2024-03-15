@@ -1,0 +1,6 @@
+if [ "$(uname)" == "Darwin" ]; then
+	ln -sf "$PWD/.bash_profile" "$HOME"/.zprofile
+else
+	ln -sf "$PWD/.bash_profile" "$HOME"/.bash_profile
+fi
+ln -sf "$PWD/.bashrc" "$HOME"/.bashrc

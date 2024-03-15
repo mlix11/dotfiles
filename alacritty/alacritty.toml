@@ -1,0 +1,9 @@
+[font]
+size = 25
+
+[window]
+decorations = "none"
+startup_mode = "Fullscreen"
+[window.padding]
+x = 7
+y = 0
